@@ -8,9 +8,9 @@ import os
 import threading
 
 bot_token = os.environ.get("TOKEN", "") 
-api_hash = os.environ.get("HASH", "") 
-api_id = os.environ.get("ID", "")
-ss = os.environ.get("STRING", "")
+api_hash = os.environ.get("HASH", "f7cab9f80f77952272c641af39139562") 
+api_id = os.environ.get("ID", "21220145")
+ss = os.environ.get("STRING", "mongodb+srv://chauhankishansinh174:t6qXWE5P7tTGmcMH@cluster0.wgmunsq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 bot = Client("mybot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
 acc = Client("myacc",api_id=api_id,api_hash=api_hash,session_string=ss)
 
